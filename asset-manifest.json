@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/hca-health/static/css/main.f855e6bc.css",
-    "main.js": "/hca-health/static/js/main.766f29f9.js",
+    "main.css": "/hca-health/static/css/main.56d7bb55.css",
+    "main.js": "/hca-health/static/js/main.e873d78d.js",
     "static/js/453.00cd141c.chunk.js": "/hca-health/static/js/453.00cd141c.chunk.js",
+    "static/media/logo.png": "/hca-health/static/media/logo.fcf88a221ada7e1737ff.png",
     "index.html": "/hca-health/index.html",
-    "main.f855e6bc.css.map": "/hca-health/static/css/main.f855e6bc.css.map",
-    "main.766f29f9.js.map": "/hca-health/static/js/main.766f29f9.js.map",
+    "static/media/HomeIcon.svg": "/hca-health/static/media/HomeIcon.c1f81af849bb03f714bd5442e6a064d1.svg",
+    "static/media/SearchIcon.svg": "/hca-health/static/media/SearchIcon.25369001c547927f73dcab26387faab1.svg",
+    "static/media/ToggleIcon.svg": "/hca-health/static/media/ToggleIcon.132b8b085c811f3ffcbb0298469e3786.svg",
+    "main.56d7bb55.css.map": "/hca-health/static/css/main.56d7bb55.css.map",
+    "main.e873d78d.js.map": "/hca-health/static/js/main.e873d78d.js.map",
     "453.00cd141c.chunk.js.map": "/hca-health/static/js/453.00cd141c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.766f29f9.js"
+    "static/css/main.56d7bb55.css",
+    "static/js/main.e873d78d.js"
   ]
 }
