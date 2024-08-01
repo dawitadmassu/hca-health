@@ -31,13 +31,20 @@ function ItemList() {
         ))}
       </div>
       <div className="w-full  bg-gray-100  ">
-        <ul className="w-2/3  mx-auto list-none  bg-white text-gray-800  m-8 p-4 rounded shadow">
-          {Array.isArray(items) &&
+        <ul className="w-2/3  mx-auto min-h-36 list-none  bg-white text-gray-800  m-8 p-4 rounded shadow">
+          {items ? (
+            Array.isArray(items) &&
             items.map((item, index) => (
               <li key={index}>
                 <a href={item.link}>{item.title}</a>
               </li>
-            ))}
+            ))
+          ) : (
+            <div className="w-2/3  mx-auto min-h-36">
+              {" "}
+              No Treatments, Services and Specialties Found{" "}
+            </div>
+          )}
         </ul>
       </div>
     </div>
