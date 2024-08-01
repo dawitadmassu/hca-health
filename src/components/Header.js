@@ -16,9 +16,7 @@ function Header() {
   return (
     <nav className="bg-primary border-gray-200  p-2">
       <div className="flex flex-wrap items-center justify-between mx-auto ">
-        <a href="#" className="flex items-center  rtl:space-x-reverse">
-          <img src={logo} className="h-5" alt=" Logo" />
-        </a>
+        <img src={logo} className="h-5" alt=" Logo" />
 
         <div className="hidden md:flex md:mt-2 items-center space-x-4">
           <Menu />
@@ -43,7 +41,11 @@ function Header() {
         </div>
       </div>
 
-      {isSearchOpen && <SearchInput />}
+      {isSearchOpen && (
+        <div className="md:hidden">
+          <SearchInput />
+        </div>
+      )}
 
       {isMenuOpen && <ExpandedMenu />}
     </nav>

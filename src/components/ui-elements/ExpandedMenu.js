@@ -7,25 +7,21 @@ function ExpandedMenu() {
     <div className="md:hidden " id="navbar-dropdown">
       <ul className="flex flex-col space-y-2 p-2 mt-4 text-sm">
         <li>
-          <a
-            href="#"
-            className="block text-white hover:text-secondary px-2 py-1 rounded"
+          <button
+            className="block text-white hover:text-secondary px-2 py-1 rounded w-full"
             aria-current="page"
           >
             <div className="flex flex-row justify-center">
-              <HomeIcon />
+              <HomeIcon className="size-5" />
               Home
             </div>
-          </a>
+          </button>
         </li>
         {menuItems.map((item) => (
           <li key={item.id}>
-            <a
-              href="#"
-              className="block text-white hover:text-secondary px-2 py-1 rounded"
-            >
+            <button className="block text-white hover:text-secondary px-2 py-1 rounded w-full">
               {item.label}
-            </a>
+            </button>
           </li>
         ))}
       </ul>

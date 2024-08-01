@@ -2,33 +2,20 @@ import React from "react";
 import { menuItems } from "../../utils/menuItems";
 
 import { ReactComponent as HomeIcon } from "../../assets/icons/HomeIcon.svg";
-function Menu({ expandedMenu }) {
+
+function Menu() {
   return (
-    <ul className="flex space-x-2 md:text-sm">
+    <ul className="flex space-x-2 md:text-sm items-center">
       <li>
-        <a href="#" className="" aria-current="page">
+        <button>
           <HomeIcon />
-        </a>
+        </button>
       </li>
       {menuItems.map((item) => (
         <li key={item.id}>
-          <a
-            href="#"
-            className="text-white hover:text-blue-700 px-1 py-1  rounded"
-          >
+          <button className="text-white hover:text-blue-700 px-1 py-1  rounded">
             {item.label}
-          </a>
-          {item.subItems && expandedMenu === item.id && (
-            <ul className="absolute left-0 mt-2 bg-white text-gray-900 rounded shadow-lg">
-              {item.subItems.map((subItem) => (
-                <li key={subItem.id}>
-                  <a href="#" className="block px-4 py-2 hover:bg-gray-100">
-                    {subItem.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          )}
+          </button>
         </li>
       ))}
     </ul>
