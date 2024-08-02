@@ -3,7 +3,7 @@ import { menuItems } from "../../utils/menuItems";
 
 function ExpandedMenu() {
   return (
-    <div className="md:hidden " id="navbar-dropdown">
+    <div className="md:hidden" id="navbar-dropdown">
       <ul className="flex flex-col space-y-2 p-2 mt-4 text-sm">
         <li>
           <button
@@ -18,7 +18,10 @@ function ExpandedMenu() {
         </li>
         {menuItems.map((item) => (
           <li key={item.id}>
-            <button className="block text-white hover:text-secondary px-2 py-1 rounded w-full">
+            <button
+              className="block text-white hover:text-secondary px-2 py-1 rounded w-full"
+              role="menuitem"
+            >
               {item.label}
             </button>
           </li>

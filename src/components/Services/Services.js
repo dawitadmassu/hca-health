@@ -17,11 +17,11 @@ function Services() {
   };
 
   return (
-    <div className="flex flex-col  bg-white py-4 items-center justify-center mx-auto">
-      <div className="flex text-2xl text-gray-500 font-semibold justify-center w-full mb-4">
+    <section className="flex flex-col bg-white py-4 items-center justify-center mx-auto">
+      <h2 className="text-2xl text-gray-500 font-semibold text-center w-full mb-4">
         Treatments, Services and Specialties
-      </div>
-      <div className="w-2/3 mb-4 mx-auto  font-semibold text-xl p-2 flex flex-wrap justify-between">
+      </h2>
+      <nav className="w-2/3 mb-4 mx-auto font-semibold text-xl p-2 flex flex-wrap justify-between">
         {Object.entries(groupedItems).map(([key, value]) => (
           <button
             key={key}
@@ -30,15 +30,16 @@ function Services() {
               ${key === "#" ? "mr-0" : "mr-4"}
               ${value.length || key === "#" ? "text-blue-700" : "text-blue-200"}
             `}
+            aria-label={`Filter by ${key}`}
           >
             {key}
           </button>
         ))}
-      </div>
-      <div className="w-full  bg-gray-100  ">
+      </nav>
+      <div className="w-full bg-gray-100">
         <ItemList filteredItems={filteredItems} />
       </div>
-    </div>
+    </section>
   );
 }
 

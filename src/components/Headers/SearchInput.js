@@ -3,11 +3,15 @@ import React from "react";
 function SearchInput() {
   return (
     <div className="relative">
+      <label htmlFor="search-navbar" className="sr-only">
+        Search
+      </label>
       <input
         type="text"
         id="search-navbar"
         className="block w-full p-2 pl-10 text-xs text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500"
         placeholder="Search..."
+        aria-label="Search"
       />
       <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
         <svg
