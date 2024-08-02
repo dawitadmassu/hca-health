@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as SearchIcon } from "../assets/icons/SearchIcon.svg";
+import { ReactComponent as SearchIcon } from "../../assets/icons/SearchIcon.svg";
 
 function FindCare() {
   return (

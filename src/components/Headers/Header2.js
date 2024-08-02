@@ -1,7 +1,7 @@
 import React from "react";
-import WaitTime from "./ui-elements/WaitTime";
-import MakeAppointment from "./ui-elements/MakeAppointment";
-import Alerts from "./ui-elements/Alerts";
+import WaitTime from "./WaitTime";
+import MakeAppointment from "./MakeAppointment";
+import Alerts from "./Alerts";
 function Header2() {
   return (
     <div className="flex flex-col md:flex-row justify-between items-center">

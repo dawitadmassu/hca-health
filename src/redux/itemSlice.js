@@ -17,8 +17,9 @@ const itemSlice = createSlice({
   reducers: {
     filterItems: (state, action) => {
       if (Array.isArray(state.items)) {
-        state.filteredItems = state.items.filter((item) =>
-          item.name.startsWith(action.payload)
+        state.filteredItems = state.items.filter(
+          (item) =>
+            action.payload === "#" || item.title.startsWith(action.payload)
         );
       }
     },

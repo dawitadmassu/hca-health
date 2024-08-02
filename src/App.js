@@ -1,11 +1,11 @@
 import "./App.css";
 import { Provider } from "react-redux";
 import store from "./redux/store";
-import FindCare from "./components/FindCare";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Header2 from "./components/Header2";
-import ItemList from "./components/ItemList";
+import FindCare from "./components/Jumbotron/FindCare";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Headers/Header";
+import Header2 from "./components/Headers/Header2";
+import Services from "./components/Services/Services";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Header />
       <Header2 />
       <FindCare />
-      <ItemList />
+      <Services />
       <Footer />
     </Provider>
   );

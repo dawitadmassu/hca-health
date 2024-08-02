@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import logo from "../assets/images/logo.png";
-import SearchInput from "./ui-elements/SearchInput";
-import Menu from "./ui-elements/Menu";
-import ExpandedMenu from "./ui-elements/ExpandedMenu";
-import { ReactComponent as ToggleIcon } from "../assets/icons/ToggleIcon.svg";
-import { ReactComponent as SearchIcon } from "../assets/icons/SearchIcon.svg";
+import logo from "../../assets/images/logo.png";
+import SearchInput from "./SearchInput";
+import Menu from "./Menu";
+import ExpandedMenu from "./ExpandedMenu";
+import { ReactComponent as ToggleIcon } from "../../assets/icons/ToggleIcon.svg";
+import { ReactComponent as SearchIcon } from "../../assets/icons/SearchIcon.svg";
 
 function Header() {
   const [isMenuOpen, setMenuOpen] = useState(false);

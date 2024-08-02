@@ -1,7 +1,7 @@
 import React from "react";
-import logo2 from "../assets/images/logo2.png";
-import { footerLinks as links } from "../utils/footerLinks";
-import { aboutLinks } from "../utils/aboutLinks";
+import logo2 from "../../assets/images/logo2.png";
+import { footerLinks as links } from "../../utils/footerLinks";
+import { aboutLinks } from "../../utils/aboutLinks";
 function Footer() {
   const currentYear = new Date().getFullYear();
   return (
