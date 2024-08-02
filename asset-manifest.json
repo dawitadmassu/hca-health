@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/hca-health/static/css/main.36c0b1a8.css",
-    "main.js": "/hca-health/static/js/main.da1d7715.js",
+    "main.css": "/hca-health/static/css/main.fb52537c.css",
+    "main.js": "/hca-health/static/js/main.ecc89c2f.js",
     "static/js/453.00cd141c.chunk.js": "/hca-health/static/js/453.00cd141c.chunk.js",
+    "static/media/fa-solid-900.ttf": "/hca-health/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/hca-health/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/hca-health/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/hca-health/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/hca-health/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fa-regular-400.woff2": "/hca-health/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
     "static/media/logo.png": "/hca-health/static/media/logo.fcf88a221ada7e1737ff.png",
     "static/media/logo2.png": "/hca-health/static/media/logo2.ba0eb0438c99fbea8b71.png",
+    "static/media/fa-v4compatibility.ttf": "/hca-health/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/hca-health/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/hca-health/index.html",
-    "static/media/CalenderIcon.svg": "/hca-health/static/media/CalenderIcon.bebc7ab2d1d490d7040362897cda42b8.svg",
-    "static/media/HomeIcon.svg": "/hca-health/static/media/HomeIcon.c1f81af849bb03f714bd5442e6a064d1.svg",
-    "static/media/AlertIcon.svg": "/hca-health/static/media/AlertIcon.0e83809bfd37d35b642ff8ccf867dac8.svg",
-    "static/media/TimerIcon.svg": "/hca-health/static/media/TimerIcon.5339dec0cc8a03f6f6e3a38aa1b1c268.svg",
-    "static/media/SearchIcon.svg": "/hca-health/static/media/SearchIcon.25369001c547927f73dcab26387faab1.svg",
-    "static/media/ToggleIcon.svg": "/hca-health/static/media/ToggleIcon.132b8b085c811f3ffcbb0298469e3786.svg",
-    "static/media/DownArrowIcon.svg": "/hca-health/static/media/DownArrowIcon.48fd7eca0b841b67d74a4d29f5b2670f.svg",
-    "main.36c0b1a8.css.map": "/hca-health/static/css/main.36c0b1a8.css.map",
-    "main.da1d7715.js.map": "/hca-health/static/js/main.da1d7715.js.map",
+    "main.fb52537c.css.map": "/hca-health/static/css/main.fb52537c.css.map",
+    "main.ecc89c2f.js.map": "/hca-health/static/js/main.ecc89c2f.js.map",
     "453.00cd141c.chunk.js.map": "/hca-health/static/js/453.00cd141c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.36c0b1a8.css",
-    "static/js/main.da1d7715.js"
+    "static/css/main.fb52537c.css",
+    "static/js/main.ecc89c2f.js"
   ]
 }
