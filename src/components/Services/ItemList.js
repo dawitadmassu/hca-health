@@ -12,7 +12,7 @@ function ItemList({ filteredItems }) {
                 <span className="w-2/3">{char}</span>
               </h2>
 
-              <ul className="grid grid-cols-2 gap-4">
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {filteredItems[char].map((item, index) => (
                   <li key={index} className="break-words">
                     <a
