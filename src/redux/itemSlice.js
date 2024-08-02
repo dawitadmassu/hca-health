@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
 export const fetchItems = createAsyncThunk("items/fetchItems", async () => {
-  const response = await axios.get("/data.json");
+  const response = await axios.get(`${process.env.PUBLIC_URL}/data.json`);
 
   return response.data.termList;
 });
