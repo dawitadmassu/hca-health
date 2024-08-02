@@ -3,8 +3,6 @@ import logo from "../../assets/images/logo.png";
 import SearchInput from "./SearchInput";
 import Menu from "./Menu";
 import ExpandedMenu from "./ExpandedMenu";
-import { ReactComponent as ToggleIcon } from "../../assets/icons/ToggleIcon.svg";
-import { ReactComponent as SearchIcon } from "../../assets/icons/SearchIcon.svg";
 
 function Header() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -29,14 +27,14 @@ function Header() {
             className="inline-flex items-center p-2 w-8 h-8 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
           >
             <span className="sr-only">Toggle search</span>
-            <SearchIcon />
+            <i class="fa-solid fa-magnifying-glass text-2xl"></i>
           </button>
           <button
             onClick={toggleMenu}
             className="inline-flex items-center p-2 w-8 h-8 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
           >
             <span className="sr-only">Toggle menu</span>
-            <ToggleIcon />
+            <i class="fa-solid fa-bars text-2xl"></i>
           </button>
         </div>
       </div>

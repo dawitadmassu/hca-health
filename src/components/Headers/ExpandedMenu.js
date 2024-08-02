@@ -1,6 +1,5 @@
 import React from "react";
 import { menuItems } from "../../utils/menuItems";
-import { ReactComponent as HomeIcon } from "../../assets/icons/HomeIcon.svg";
 
 function ExpandedMenu() {
   return (
@@ -12,8 +11,8 @@ function ExpandedMenu() {
             aria-current="page"
           >
             <div className="flex flex-row justify-center">
-              <HomeIcon className="size-5" />
-              Home
+              <i className="fa-solid fa-house mr-2"></i>
+              <span>Home</span>
             </div>
           </button>
         </li>

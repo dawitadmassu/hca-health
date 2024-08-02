@@ -1,15 +1,11 @@
 import React from "react";
 import { menuItems } from "../../utils/menuItems";
 
-import { ReactComponent as HomeIcon } from "../../assets/icons/HomeIcon.svg";
-
 function Menu() {
   return (
     <ul className="flex space-x-2 md:text-sm items-center">
       <li>
-        <button>
-          <HomeIcon />
-        </button>
+        <i className="fa-solid fa-house mr-2 text-white"></i>
       </li>
       {menuItems.map((item) => (
         <li key={item.id}>

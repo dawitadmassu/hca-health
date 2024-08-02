@@ -1,5 +1,4 @@
 import React from "react";
-import { ReactComponent as SearchIcon } from "../../assets/icons/SearchIcon.svg";
 
 function FindCare() {
   return (
@@ -16,7 +15,7 @@ function FindCare() {
             placeholder="What are you looking for?"
           />
           <span className="inline-flex items-center px-3 text-sm text-gray-900 bg-white border rounded-lg border-gray-300 rounded-l-none">
-            <SearchIcon />
+            <i class="fa-solid fa-magnifying-glass text-2xl"></i>
           </span>
         </div>
       </div>
